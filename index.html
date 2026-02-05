@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenador de Velocidad de Escritura</title>
+    <meta name="description" content="Mejora tu velocidad de escritura en español con retroalimentación visual en tiempo real">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">⚡ Entrenador de Velocidad</h1>
+            <p class="subtitle">Mejora tu rapidez escribiendo en español</p>
+        </header>
+
+        <div class="game-container">
+            <!-- Level Selection -->
+            <div class="level-selector" id="levelSelector">
+                <h2>Selecciona tu Nivel</h2>
+                <div class="level-buttons">
+                    <button class="level-btn" data-level="easy" data-time="60">
+                        <span class="level-icon">🌱</span>
+                        <span class="level-name">Fácil</span>
+                        <span class="level-time">60s</span>
+                    </button>
+                    <button class="level-btn" data-level="medium" data-time="45">
+                        <span class="level-icon">🔥</span>
+                        <span class="level-name">Medio</span>
+                        <span class="level-time">45s</span>
+                    </button>
+                    <button class="level-btn" data-level="hard" data-time="30">
+                        <span class="level-icon">⚡</span>
+                        <span class="level-name">Difícil</span>
+                        <span class="level-time">30s</span>
+                    </button>
+                    <button class="level-btn" data-level="expert" data-time="20">
+                        <span class="level-icon">🚀</span>
+                        <span class="level-name">Experto</span>
+                        <span class="level-time">20s</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Game Area -->
+            <div class="game-area hidden" id="gameArea">
+                <!-- Stats Bar -->
+                <div class="stats-bar">
+                    <div class="stat-item timer-container">
+                        <span class="stat-icon">⏱️</span>
+                        <span class="stat-label">Tiempo:</span>
+                        <span class="stat-value" id="timer">60</span>
+                    </div>
+                    <div class="stat-item success-container">
+                        <span class="stat-icon">✓</span>
+                        <span class="stat-label">Aciertos:</span>
+                        <span class="stat-value" id="successCount">0</span>
+                    </div>
+                    <div class="stat-item error-container">
+                        <span class="stat-icon">✗</span>
+                        <span class="stat-label">Errores:</span>
+                        <span class="stat-value" id="errorCount">0</span>
+                    </div>
+                </div>
+
+                <!-- Word Display -->
+                <div class="word-display">
+                    <div class="current-word" id="currentWord">palabra</div>
+                    <div class="word-hint">Escribe la palabra que ves arriba</div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-container">
+                    <input 
+                        type="text" 
+                        id="wordInput" 
+                        class="word-input" 
+                        placeholder="Escribe aquí..."
+                        autocomplete="off"
+                        spellcheck="false"
+                    >
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div class="results-screen hidden" id="resultsScreen">
+                <h2 class="results-title">¡Tiempo Terminado!</h2>
+                <div class="results-stats">
+                    <div class="result-card success-card">
+                        <div class="result-icon">✓</div>
+                        <div class="result-number" id="finalSuccess">0</div>
+                        <div class="result-label">Aciertos</div>
+                    </div>
+                    <div class="result-card error-card">
+                        <div class="result-icon">✗</div>
+                        <div class="result-number" id="finalErrors">0</div>
+                        <div class="result-label">Errores</div>
+                    </div>
+                    <div class="result-card accuracy-card">
+                        <div class="result-icon">📊</div>
+                        <div class="result-number" id="accuracy">0%</div>
+                        <div class="result-label">Precisión</div>
+                    </div>
+                    <div class="result-card wpm-card">
+                        <div class="result-icon">⚡</div>
+                        <div class="result-number" id="wpm">0</div>
+                        <div class="result-label">PPM</div>
+                    </div>
+                </div>
+                <button class="restart-btn" id="restartBtn">
+                    <span>🔄 Jugar de Nuevo</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
