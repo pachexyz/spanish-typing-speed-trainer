@@ -24,7 +24,8 @@ Aplicación web para mejorar la velocidad y precisión de escritura en español 
    git clone https://github.com/tu-usuario/spanish-typing-speed-trainer.git
 2. Abre el archivo index.html en tu navegador.
 3. Selecciona un nivel y empieza a escribir.
-📈 Objetivo del proyecto
+
+## 📈 Objetivo del proyecto
 
 Este proyecto fue creado con fines educativos para practicar:
 
@@ -48,6 +49,6 @@ Modo oscuro/claro configurable
 
 Base de datos de palabras más amplia o personalizable
 
-📄 Licencia
+## 📄 Licencia
 
 Proyecto de uso libre para aprendizaje y práctica personal.
