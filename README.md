@@ -2,6 +2,10 @@
 
 Aplicación web para entrenar la velocidad y precisión de escritura en español mediante un juego cronometrado con feedback visual en tiempo real.
 
+<img width="1915" height="911" alt="image" src="https://github.com/user-attachments/assets/92a28ec9-209b-439b-b3af-84950626c8cb" />
+<img width="1915" height="909" alt="image" src="https://github.com/user-attachments/assets/4ece965a-c2e4-4b46-9a42-36ef1189e0f4" />
+<img width="1916" height="913" alt="image" src="https://github.com/user-attachments/assets/a032468c-c18f-43a9-99aa-bfd879db2924" />
+
 ## 🎯 Características
 - Palabras en español con distintos niveles de dificultad
 - Niveles progresivos: Fácil, Medio, Difícil y Experto
