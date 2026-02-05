@@ -30,31 +30,15 @@ Aplicación web para entrenar la velocidad y precisión de escritura en español
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/spanish-typing-speed-trainer.git
-Abre el archivo index.html en tu navegador.
+2. Abre el archivo index.html en tu navegador.
+3. Selecciona un nivel y comienza a escribir.
 
-Selecciona un nivel y comienza a escribir.
 
-📈 Objetivo del proyecto
-Este proyecto fue desarrollado con fines educativos para reforzar y demostrar conocimientos en:
-
-Manipulación del DOM
-
-Gestión de estado en JavaScript
-
-Manejo de eventos de usuario
-
-Diseño de interfaces centradas en feedback inmediato
-
-🔧 Posibles mejoras futuras
-Sistema de puntuación global
-
-Ranking o historial de partidas
-
-Selección de idioma
-
-Modo claro / oscuro configurable
-
-Base de datos de palabras ampliable o personalizable
-
-📄 Licencia
+### 🔧 Posibles mejoras futuras
+- Sistema de puntuación global
+- Ranking o historial de partidas
+- Selección de idioma
+- Modo claro / oscuro configurable
+- Base de datos de palabras ampliable o personalizable
+### 📄 Licencia
 Proyecto de uso libre para aprendizaje y práctica personal.
