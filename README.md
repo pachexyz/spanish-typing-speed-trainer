@@ -34,11 +34,11 @@ Aplicación web para entrenar la velocidad y precisión de escritura en español
 3. Selecciona un nivel y comienza a escribir.
 
 
-### 🔧 Posibles mejoras futuras
+## 🔧 Posibles mejoras futuras
 - Sistema de puntuación global
 - Ranking o historial de partidas
 - Selección de idioma
 - Modo claro / oscuro configurable
 - Base de datos de palabras ampliable o personalizable
-### 📄 Licencia
+## 📄 Licencia
 Proyecto de uso libre para aprendizaje y práctica personal.
