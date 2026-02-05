@@ -1,54 +1,56 @@
 # Spanish Typing Speed Trainer
 
-Aplicación web para mejorar la velocidad y precisión de escritura en español mediante un juego cronometrado con feedback visual en tiempo real.
+Aplicación web para entrenar la velocidad y precisión de escritura en español mediante un juego cronometrado con feedback visual en tiempo real.
 
 ## 🎯 Características
-- Palabras en español de distinta dificultad
-- Niveles progresivos (Fácil → Experto)
-- Temporizador y barra de progreso
-- Feedback visual al escribir (aciertos y errores)
-- Estadísticas finales:
+- Palabras en español con distintos niveles de dificultad
+- Niveles progresivos: Fácil, Medio, Difícil y Experto
+- Temporizador con barra de progreso visual
+- Feedback inmediato al escribir (aciertos y errores)
+- Estadísticas finales de rendimiento:
   - Palabras por minuto (PPM)
   - Precisión (%)
-  - Aciertos y errores
-- Diseño moderno y responsive
+  - Total de aciertos y errores
+- Interfaz moderna y diseño responsive
 
 ## 🛠️ Tecnologías utilizadas
-- HTML5
-- CSS3 (animaciones, glassmorphism, responsive design)
-- JavaScript (Vanilla JS, sin librerías)
+- **HTML5**
+- **CSS3**
+  - Animaciones
+  - Glassmorphism
+  - Responsive Design
+- **JavaScript**
+  - Vanilla JS (sin frameworks ni librerías externas)
 
 ## 🚀 Cómo usar el proyecto
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/spanish-typing-speed-trainer.git
-2. Abre el archivo index.html en tu navegador.
-3. Selecciona un nivel y empieza a escribir.
+Abre el archivo index.html en tu navegador.
 
-## 📈 Objetivo del proyecto
+Selecciona un nivel y comienza a escribir.
 
-Este proyecto fue creado con fines educativos para practicar:
+📈 Objetivo del proyecto
+Este proyecto fue desarrollado con fines educativos para reforzar y demostrar conocimientos en:
 
 Manipulación del DOM
 
 Gestión de estado en JavaScript
 
-Eventos de usuario
+Manejo de eventos de usuario
 
-UX/UI orientado a feedback inmediato
+Diseño de interfaces centradas en feedback inmediato
 
 🔧 Posibles mejoras futuras
-
 Sistema de puntuación global
 
 Ranking o historial de partidas
 
 Selección de idioma
 
-Modo oscuro/claro configurable
+Modo claro / oscuro configurable
 
-Base de datos de palabras más amplia o personalizable
+Base de datos de palabras ampliable o personalizable
 
-## 📄 Licencia
-
+📄 Licencia
 Proyecto de uso libre para aprendizaje y práctica personal.
